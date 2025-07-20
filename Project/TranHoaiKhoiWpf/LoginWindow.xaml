@@ -1,0 +1,18 @@
+﻿<Window x:Class="TranHoaiKhoiWpf.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TranHoaiKhoiWpf"
+        mc:Ignorable="d"
+        Title="Login Window SU 2025" Height="400" Width="700" Background="#FFF5F5DC" FontFamily="Tahoma" FontSize="26" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid>
+        <Label Content="Log in" HorizontalAlignment="Left" Margin="291,61,0,0" VerticalAlignment="Top" Height="43" Width="90" FontSize="24" FontFamily="Arial" Foreground="#FF6B705C" />
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="148,132,0,0" VerticalAlignment="Top" Height="43" Width="90" FontSize="24" FontFamily="Arial" Foreground="#FF6B705C" />
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="113,200,0,0" VerticalAlignment="Top" Height="42" Width="140" FontSize="24" FontFamily="Arial" Foreground="#FF6B705C" />
+        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Center" Height="65" Margin="0,262,0,0" VerticalAlignment="Top" Width="208" Background="#FFB38B82" Padding="10" Foreground="#FFFFFFFF" Click="LoginButton_Click" />
+        <TextBox x:Name="EmailTextBox" HorizontalAlignment="Left" Height="32" Margin="258,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="326" Background="#FFFFF8EB"/>
+        <TextBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Height="32" Margin="258,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="326" Background="#FFFFF8EB"/>
+
+    </Grid>
+</Window>
